@@ -1,0 +1,73 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+  }
+  
+  .menu {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-right: 20px;
+  }
+  
+  .menu a {
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+  }
+  
+  .search input[type=text] {
+	padding: 6px;
+	border: none;
+	font-size: 14px;
+  }
+  
+  .search button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	font-size: 14px;
+  }
+  
+  /* Banner styles */
+  .banner img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+  }
+  
+  /* Card styles */
+  .cards {
+	display: flex;
+	flex-wrap: wrap
+  }
+
+  .cards{
+	padding: 50px 120px;
+  }
+  .cards div{
+	padding: 0px 30px;
+  } 
+
+ .cards1{
+	display: flex;
+	padding: 100px 10px;
+	position: relative;
+	top: 30px;
+ }

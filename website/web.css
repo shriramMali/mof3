@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 52px;
+    background-color: #333 ;
+    padding: 0px 130px; 
+    color: #fff;
+    justify-content: space-between;
+    
+}
+
+.container h3{
+    padding: 11px 15px;
+    align-self: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navi{
+    display: flex;
+    text-decoration: none;
+    color: #fff !important;
+    padding: 15px 15px;
+    list-style-type: none;
+    
+}
+.log a{
+   
+    padding: 5px 15px;
+    font-size: small;
+    border-radius: 1px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: rgb(39, 206, 114);
+    margin: 15px;  
+
+}
+
+.navi li{
+padding: 0px 16px;
+font-size:x-small;
+letter-spacing: 1px;
+font-weight: 500;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+align-self: center;
+}
+.log{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.box{
+    height: 320px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.f h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+.ase{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 70px;   
+    font-size:x-large ;
+    
+}
